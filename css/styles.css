@@ -1,0 +1,68 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c86 ;
+}
+
+#hero-text {
+    font-size: 3em;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.flex {
+    margin-left: 70%;
+}
+.navbar-brand {
+    font-family: "Russo One";
+}
+
+#title-image {
+    width:  60%;
+    transform: rotate(20deg); 
+    
+}
+.feature-box h3 {
+    margin-top: 2rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.feature-box {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.feature-box i {
+    margin-top: 50px;
+    font-size: 48px;
+    color: #ff4c86;
+}
+#testimonials {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c86;
+    color: #fff;
+}
+#testimonials h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+#press {
+    background-color: #ff4c86;
+    text-align: center;
+    padding: 3%;
+}
+#press img {
+    width: 15%;
+    margin-left: 5%;
+}
