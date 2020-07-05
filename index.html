@@ -59,9 +59,8 @@
       <div class="row">
         <div class="col-lg-6">
           <h1 id="hero-text">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg mr-2 mt-2"><i class="fab fa-android"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg mt-2"><i class="fas fa-apple-alt"></i>
-            Download</button>
+          <button type="button" class="btn btn-dark btn-lg mr-2 mt-2 dn"><i class="fab fa-android"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg mt-2 dn"><i class="fas fa-apple-alt"></i>Download</button>
         </div>
         <div class="col-lg-6">
           <img src="images/iphone6.png" id="title-image" alt="iphone-mockup">
@@ -135,34 +134,58 @@
   <!-- Pricing -->
 
   <section id="pricing">
-
+<div class="before">
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+  </div>
+<div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Caniche</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for free</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Labrador</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$49 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>5 Matches Per Day</li>
+            <li>10 Messages Per Day</li>
+            <li>Unlimited App Usage</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-dark">Get started</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Mastiff</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Pirority Listing</li>
+            <li>Unlimited Matches</li>
+            <li>Unlimited Messages</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-dark">Contact us</button>
+        </div>
+      </div>
+    </div>
 
   </section>
 
@@ -172,9 +195,10 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <div class="social">
+    <button type="button" class="btn" style="font-size: 30px;"><i class="fab fa-instagram"></i></button>
+    <button type="button" class="btn" style="font-size: 30px;"><i class="fab fa-twitter"></i></button>
+  </div>
   </section>
 
 
@@ -182,7 +206,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <div class="footer-copyright text-center py-3 bg-dark">© 2020 Copyright: me</div>
 
   </footer>
 

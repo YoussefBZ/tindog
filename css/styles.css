@@ -22,7 +22,7 @@ body {
 #title-image {
     width:  60%;
     transform: rotate(20deg); 
-    
+     
 }
 .feature-box h3 {
     margin-top: 2rem;
@@ -65,4 +65,43 @@ body {
 #press img {
     width: 15%;
     margin-left: 5%;
+}
+.before {
+    text-align: center;
+    margin: 2% 0px;
+}
+.before h2 {
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+#cta h3 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.social  {
+    margin-left: 45%;
+}
+@media (max-width: 1028px) {
+    #title-image {
+        width:  60%;
+        transform: rotate(0); 
+         margin-top: 2%;
+         margin-bottom: 2%;
+    }
+    #hero-text {
+        font-size: 3em;
+        line-height: 1.5;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    #title .dn {
+        margin-left: 50px;
+    }
+    #title img {
+        margin-left: 100px;
+        
+    }
+    
 }
